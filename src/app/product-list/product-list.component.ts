@@ -18,6 +18,10 @@ export class ProductListComponent {
   onNotify() {
     window.alert('You will be notified when the product goes on sale');
   }
+
+  addToCart(item: products) {
+    console.log(item)
+  }
 }
 
 
